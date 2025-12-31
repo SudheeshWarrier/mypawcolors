@@ -1,0 +1,72 @@
+{
+  "siteInfo": {
+    "siteName": "My Paw Colors",
+    "tagline": "Where creativity comes alive through colors and imagination",
+    "description": "Art Gallery & Classes in Kalyani Nagar, Pune"
+  },
+  "contact": {
+    "email": "info@mypawcolors.com",
+    "phone": "+91-XXXX-XXXXX",
+    "address": "Kalyani Nagar, Pune, Maharashtra, India",
+    "socialMedia": {
+      "facebook": "https://facebook.com/mypawcolors",
+      "instagram": "https://instagram.com/mypawcolors",
+      "twitter": "https://twitter.com/mypawcolors",
+      "youtube": "https://youtube.com/@mypawcolors"
+    }
+  },
+  "classes": {
+    "online": {
+      "description": "Join our interactive online art classes from the comfort of your home.",
+      "features": [
+        "Live interactive sessions",
+        "Recorded lessons for review", 
+        "Personal feedback",
+        "Flexible scheduling"
+      ],
+      "availableIn": ["USA", "Canada", "Australia", "Singapore", "Malaysia", "India"],
+      "pricing": {
+        "beginner": "$50/session",
+        "intermediate": "$60/session", 
+        "advanced": "$70/session"
+      }
+    },
+    "inPerson": {
+      "description": "Experience hands-on learning in our beautiful studio space.",
+      "features": [
+        "Hands-on instruction",
+        "All materials provided",
+        "Small group sessions", 
+        "Community atmosphere"
+      ],
+      "location": "Kalyani Nagar, Pune, India",
+      "pricing": {
+        "beginner": "₹2000/session",
+        "intermediate": "₹2500/session",
+        "advanced": "₹3000/session"
+      }
+    }
+  },
+  "galleryCategories": [
+    {
+      "id": "all",
+      "name": "All",
+      "description": "View all artworks"
+    },
+    {
+      "id": "paintings",
+      "name": "Paintings", 
+      "description": "Oil, acrylic, and watercolor paintings"
+    },
+    {
+      "id": "drawings",
+      "name": "Drawings",
+      "description": "Pencil, charcoal, and ink drawings"
+    },
+    {
+      "id": "mixed-media",
+      "name": "Mixed Media",
+      "description": "Artworks combining multiple techniques"
+    }
+  ]
+}

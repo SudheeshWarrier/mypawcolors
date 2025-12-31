@@ -1,0 +1,566 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Paw Colors - Art Gallery & Classes in Kalyani Nagar, Pune. Online art classes available for US, Canada, Australia, Singapore, Malaysia & India.">
+    <meta name="keywords" content="art gallery, art classes, paintings, drawings, Pune, Kalyani Nagar, online art classes, mixed media">
+    <meta name="author" content="My Paw Colors">
+    
+    <title>My Paw Colors - Unleash Your Creative Soul</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="my-paw-colors-logo.jpg">
+    <link rel="apple-touch-icon" href="my-paw-colors-logo.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="my-paw-colors-logo.jpg">
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#A0826D">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="paint-splash">
+            <div class="splash-dot splash-1"></div>
+            <div class="splash-dot splash-2"></div>
+            <div class="splash-dot splash-3"></div>
+            <div class="splash-dot splash-4"></div>
+        </div>
+        <h2 class="loading-text">Mixing Colors...</h2>
+    </div>
+
+    <!-- Paint Strokes Background -->
+    <div class="paint-strokes">
+        <div class="stroke stroke-1"></div>
+        <div class="stroke stroke-2"></div>
+        <div class="stroke stroke-3"></div>
+    </div>
+
+    <!-- Simple Floating Menu -->
+    <nav class="side-nav" id="sideNav">
+        <div class="nav-trigger" id="navTrigger">
+            <div class="menu-icon">🎨</div>
+            <div class="connection-line"></div>
+        </div>
+        <div class="nav-content">
+            <ul class="nav-menu">
+                <li><a href="#home" data-icon="🏠">Home</a></li>
+                <li><a href="#gallery" data-icon="🖼️">Gallery</a></li>
+                <li><a href="#classes" data-icon="🎨">Classes</a></li>
+                <li><a href="#about" data-icon="📖">About</a></li>
+                <li><a href="#contact" data-icon="📧">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Hero Section with Image -->
+        <section id="home" class="hero-canvas">
+            <div class="hero-container">
+                <div class="hero-layout">
+                    <!-- Hero Content -->
+                    <div class="hero-content">
+                        <!-- Hero Search Box -->
+                        <div class="hero-search-container">
+                            <div class="search-box">
+                                <input type="text" id="heroSearchInput" placeholder="Find your favorite artwork..." class="search-input">
+                                <button class="search-btn" id="heroSearchBtn">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                            <div class="search-results" id="heroSearchResults"></div>
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            <span class="word-my">My</span>
+                            <span class="word-paw">Paw</span>
+                            <span class="word-colors">Colors</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle">
+                            Discover Beautiful Artworks & Learn Creative Techniques
+                        </p>
+                        
+                        <p class="hero-description">
+                            Join our vibrant art community in Pune and online. Explore original paintings, 
+                            drawings, and mixed media art while learning from expert artists.
+                        </p>
+                        
+                        <div class="hero-stats-row">
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Artworks</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Countries</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Students</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-actions">
+                            <a href="#gallery" class="btn-hero primary">
+                                <span class="btn-icon">🖼️</span>
+                                <span class="btn-text">Browse Gallery</span>
+                            </a>
+                            <a href="#classes" class="btn-hero secondary">
+                                <span class="btn-icon">🎓</span>
+                                <span class="btn-text">Join Classes</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dynamic Hero Image -->
+                    <div class="hero-image-section">
+                        <div class="image-container">
+                            <div class="image-frame" id="heroImageFrame">
+                                <img src="my-paw-colors-logo.jpg" alt="My Paw Colors - Beautiful Artwork" class="hero-image" id="heroImage" loading="eager">
+                                <div class="image-overlay" id="heroOverlay">
+                                    <div class="overlay-content">
+                                        <span class="artwork-title" id="heroArtworkTitle">My Paw Colors</span>
+                                        <span class="artwork-price" id="heroArtworkPrice">Art Gallery & Studio</span>
+                                        <button class="view-artwork-btn" id="viewArtworkBtn">
+                                            <span class="btn-icon">👁️</span>
+                                            <span class="btn-text">View Details</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Loading indicator -->
+                                <div class="image-loading" id="imageLoading">
+                                    <div class="loading-spinner"></div>
+                                </div>
+                            </div>
+                            
+
+
+
+                                    
+
+                                </div>
+
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Background Elements -->
+            <div class="hero-bg-elements">
+                <div class="bg-circle circle-1"></div>
+                <div class="bg-circle circle-2"></div>
+                <div class="bg-pattern"></div>
+            </div>
+        </section>
+
+        <!-- Gallery Section - Enhanced Artistic Layout -->
+        <section id="gallery" class="gallery-atelier">
+            <div class="gallery-canvas">
+                <!-- Gallery Header with Artistic Flair -->
+                <div class="gallery-header">
+                    <div class="header-artwork">
+                        <div class="paint-palette">
+                            <div class="palette-hole"></div>
+                            <div class="color-splotch splotch-1"></div>
+                            <div class="color-splotch splotch-2"></div>
+                            <div class="color-splotch splotch-3"></div>
+                            <div class="color-splotch splotch-4"></div>
+                            <div class="color-splotch splotch-5"></div>
+                        </div>
+                        <div class="paint-brush">
+                            <div class="brush-handle"></div>
+                            <div class="brush-ferrule"></div>
+                            <div class="brush-bristles"></div>
+                        </div>
+                    </div>
+                    <div class="header-text">
+                        <h2 class="gallery-title">
+                            <span class="title-word">Our</span>
+                            <span class="title-word">Creative</span>
+                            <span class="title-word highlight">Gallery</span>
+                        </h2>
+                        <p class="gallery-subtitle">Where imagination becomes reality through colors and canvas</p>
+                        <div class="paint-drip-line"></div>
+                    </div>
+                </div>
+
+                <!-- Enhanced Filter System -->
+                <div class="filter-studio">
+                    <div class="studio-easel">
+                        <div class="easel-stand-mini"></div>
+                        <div class="filter-canvas">
+                            <h3 class="filter-title">Browse Collections</h3>
+                            <div class="art-supplies" id="dynamic-filters">
+                                <!-- Dynamic filter buttons will be generated here -->
+                            </div>
+                            <div class="filter-options">
+                                <label class="hide-sold-toggle">
+                                    <input type="checkbox" id="hideSoldCheckbox">
+                                    <span class="toggle-label">Available Only</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enhanced Gallery Grid -->
+                <div class="artwork-exhibition">
+                    <div class="exhibition-wall" id="galleryContainer">
+                        <!-- Artworks will be loaded here -->
+                    </div>
+                    
+                    <!-- Gallery Stats -->
+                    <div class="gallery-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon">🎨</div>
+                            <div class="stat-text">
+                                <span class="stat-number" id="totalArtworks">0</span>
+                                <span class="stat-label">Artworks</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">✨</div>
+                            <div class="stat-text">
+                                <span class="stat-number" id="availableArtworks">0</span>
+                                <span class="stat-label">Available</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">🖼️</div>
+                            <div class="stat-text">
+                                <span class="stat-number" id="categoriesCount">4</span>
+                                <span class="stat-label">Categories</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Classes Section - Studio Layout -->
+        <section id="classes" class="classes-atelier">
+            <div class="atelier-container">
+                <div class="section-intro">
+                    <h2 class="atelier-title">Creative Workshops</h2>
+                    <div class="title-underline"></div>
+                    <p class="atelier-description">Nurture your artistic journey with expert guidance</p>
+                </div>
+                
+                <div class="workshop-cards">
+                    <!-- Online Classes Card -->
+                    <div class="workshop-card online-workshop">
+                        <div class="card-easel">
+                            <div class="easel-stand"></div>
+                            <div class="canvas-board">
+                                <div class="card-content">
+                                    <div class="workshop-icon">
+                                        <i class="bi bi-laptop"></i>
+                                    </div>
+                                    <h3 class="workshop-title">Virtual Studio</h3>
+                                    <p class="workshop-description">
+                                        Join our online art sessions from the comfort of your home.
+                                        Perfect for creative souls who love to explore art without boundaries.
+                                    </p>
+                                    <ul class="workshop-features">
+                                        <li>Live interactive sessions</li>
+                                        <li>Active group class or personal class</li>
+                                        <li>Personal critiques</li>
+                                        <li>Flexible timing</li>
+                                    </ul>
+                                    <div class="global-reach">
+                                        <span class="reach-label">Available Worldwide:</span>
+                                        <div class="country-flags">
+                                            <span class="flag">🇺🇸</span>
+                                            <span class="flag">🇨🇦</span>
+                                            <span class="flag">🇦🇺</span>
+                                            <span class="flag">🇸🇬</span>
+                                            <span class="flag">🇲🇾</span>
+                                            <span class="flag">🇮🇳</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- In-Person Classes Card -->
+                    <div class="workshop-card physical-workshop">
+                        <div class="card-easel">
+                            <div class="easel-stand"></div>
+                            <div class="canvas-board">
+                                <div class="card-content">
+                                    <div class="workshop-icon">
+                                        <i class="bi bi-palette2"></i>
+                                    </div>
+                                    <h3 class="workshop-title">Physical Studio</h3>
+                                    <p class="workshop-description">
+                                        Experience the magic of hands-on creation from your home, with a personal attention and guidance. Classes will be conducted at your home.
+                                    </p>
+                                    <ul class="workshop-features">
+                                        <li>Hands-on mentoring</li>
+                                        <li>Premium materials</li>
+                                        <li>Personal one on one class</li>
+                                        <li>Ideal for beginners and advanced artists</li>
+                                        
+                                    </ul>
+                                    <div class="location-info">
+                                        <span class="location-label">Our Location:</span>
+                                        <div class="studio-address">
+                                            <i class="bi bi-geo-alt"></i>
+                                            <span>Kalyani Nagar, Pune, Maharashtra, India</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Call to Action -->
+                <div class="workshop-cta">
+                    <a href="#contact" class="btn-hero primary">
+                        <span class="btn-icon">📧</span>
+                        <span class="btn-text">Contact Us to Enroll</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section - Storytelling Layout -->
+        <section id="about" class="about-story">
+            <div class="story-container">
+                <div class="story-visual">
+                    <div class="artist-portrait">
+                        <div class="portrait-frame">
+                            <img src="my-paw-colors-logo.jpg" alt="My Paw Colors Story" class="portrait-image">
+                            <div class="frame-corners">
+                                <span class="corner corner-tl"></span>
+                                <span class="corner corner-tr"></span>
+                                <span class="corner corner-bl"></span>
+                                <span class="corner corner-br"></span>
+                            </div>
+                        </div>
+                        <div class="palette-decoration">
+                            <div class="color-dot dot-1"></div>
+                            <div class="color-dot dot-2"></div>
+                            <div class="color-dot dot-3"></div>
+                            <div class="color-dot dot-4"></div>
+                            <div class="color-dot dot-5"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-narrative">
+                    <h2 class="story-title">Our Creative Journey</h2>
+                    <div class="story-chapters">
+                        <div class="chapter">
+                            <div class="chapter-number">01</div>
+                            <div class="chapter-content">
+                                <h3>The Vision</h3>
+                                <p>My Paw Colors began as a dream to create a sanctuary where creativity knows no boundaries. More than an art gallery, we are a vibrant community celebrating the beauty of artistic expression.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="chapter">
+                            <div class="chapter-number">02</div>
+                            <div class="chapter-content">
+                                <h3>The Collection</h3>
+                                <p>Our curated collection spans diverse artistic expressions—from traditional paintings to contemporary mixed media. Each piece tells a unique story and invites viewers into the artist's world.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="chapter">
+                            <div class="chapter-number">03</div>
+                            <div class="chapter-content">
+                                <h3>The Community</h3>
+                                <p>Through our classes, we nurture creativity and provide a supportive environment for artists of all levels. Whether you're a beginner or experienced artist, we have something special for your journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newspaper Article Section -->
+        <section id="press" class="newspaper-article">
+            <div class="newspaper-container">
+                <div class="newspaper-header">
+                    <h2 class="section-title">Featured in the Press</h2>
+                    <p class="section-subtitle">Capturing the hearts and souls of beloved pets through art</p>
+                </div>
+                
+                <div class="article-layout">
+                    <div class="newspaper-content">
+                        <div class="article-header">
+                            <div class="publication-info">
+                                <img src="https://www.thehindu.com/theme/images/th-online/thehindu-logo.svg" alt="The Hindu" class="publication-logo">
+                                <span class="publication-date">March 15, 2024</span>
+                                <a href="https://www.thehindu.com/society/these-artists-capture-your-pets-adorable-moments-on-canvas-portraits/article26184393.ece" target="_blank" class="original-article-link">Read Original Article</a>
+                            </div>
+                            <h1 class="article-headline">These Artists Capture Your Pets' Adorable Moments on Canvas</h1>
+                            <p class="article-subtitle">Pet portraits have become increasingly popular as owners seek to immortalize their beloved companions through personalized artwork</p>
+                        </div>
+                        
+                        <div class="article-body">
+                            <div class="article-text">
+                                <p class="article-paragraph">
+                                    "Every pet has a unique personality that shines through their eyes," says the artist behind My Paw Colors. "When I paint a pet, I'm capturing their soul and the love they bring to their families."
+                                </p>
+                                
+                                <div class="article-quote">
+                                    <blockquote>
+                                        "The joy on a client's face when they see their pet brought to life on canvas is pure magic."
+                                    </blockquote>
+                                    <cite>— Featured Artist, My Paw Colors</cite>
+                                </div>
+                                
+                                <p class="article-paragraph">
+                                    From playful puppies to regal cats, each portrait tells a story. The artistic process involves understanding the pet's personality and translating that essence into vibrant artwork that becomes a treasured family heirloom.
+                                </p>
+                            </div>
+                            
+                            <div class="article-sidebar">
+                                <div class="featured-image">
+                                    <img src="my-paw-colors-logo.jpg" alt="Pet Portrait in Progress" class="article-photo">
+                                    <caption class="photo-caption">Custom pet portraits that capture personality and essence.</caption>
+                                </div>
+                                
+                                <div class="article-highlights">
+                                    <h3>Services</h3>
+                                    <ul>
+                                        <li>Custom pet portraits</li>
+                                        <li>Multiple artistic styles</li>
+                                        <li>Memorial portraits</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Interactive Canvas -->
+        <section id="contact" class="contact-canvas">
+            <div class="canvas-workspace">
+                <div class="workspace-header">
+                    <h2 class="workspace-title">Let's Create Together</h2>
+                </div>
+                
+                <div class="contact-easel">
+                    <div class="easel-frame">
+                        <div class="contact-form-container">
+                            <div class="google-form-wrapper">
+                                <iframe 
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLSf406LHg5ET0dIJkin0vmb-ToxUFGEOFJF9dN6x_kq0fuVsLg/viewform?embedded=true" 
+                                    class="contact-iframe"
+                                    frameborder="0" 
+                                    marginheight="0" 
+                                    marginwidth="0"
+                                    width="100%"
+                                    height="700"
+                                    >
+                                    Loading contact form...
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer - Artist Signature Style -->
+    <footer class="artist-signature">
+        <div class="signature-content">
+            <div class="brand-signature">
+                <img src="my-paw-colors-logo.jpg" alt="My Paw Colors" class="signature-logo">
+                <div class="signature-text">
+                    <h4 class="signature-name">My Paw Colors</h4>
+                    <p class="signature-tagline">Where creativity comes alive through colors and imagination</p>
+                </div>
+            </div>
+            
+            <div class="signature-social">
+                <div class="social-palette">
+                    
+                    <a href="https://www.instagram.com/mypawcolors" target="_blank" class="social-color instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/mypawcolors" target="_blank" class="social-color facebook"><i class="bi bi-facebook"></i></a>
+                    <!-- <a href="#" class="social-color twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="social-color youtube"><i class="bi bi-youtube"></i></a>-->
+                </div>
+            </div>
+            
+            <div class="copyright-mark">
+                <p>&copy; 2025 My Paw Colors. All rights reserved.</p>
+                <div class="artist-mark">✨</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Artwork Modal - Redesigned -->
+    <div class="artwork-modal" id="artworkModal">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-gallery">
+            <div class="gallery-frame">
+                <button class="close-gallery" id="closeModal">
+                    <span class="close-line"></span>
+                    <span class="close-line"></span>
+                </button>
+                
+                <div class="artwork-display">
+                    <div class="artwork-image-container">
+                        <img id="modalImage" src="" alt="" class="modal-artwork">
+                        <button class="fullscreen-btn" id="fullscreenBtn">
+                            <i class="bi bi-arrows-fullscreen"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="artwork-details">
+                        <div class="details-header">
+                            <h3 id="modalArtworkTitle">Artwork Title</h3>
+                            <p class="artist-name" id="modalArtist">Artist Name</p>
+                        </div>
+                        
+                        <div class="artwork-info">
+                            <div class="price-tag" id="modalPrice">$0</div>
+                            <div class="status-indicator" id="modalStatus">Available</div>
+                        </div>
+                        
+                        <div class="artwork-description">
+                            <p id="modalDescription">Artwork description</p>
+                        </div>
+                        
+                        <div class="artwork-specs" id="modalSpecs">
+                            <h4>Specifications</h4>
+                            <ul id="modalSpecsList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
