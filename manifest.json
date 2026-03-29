@@ -1,0 +1,20 @@
+{
+  "name": "My Paw Colors",
+  "short_name": "MyPawColors", 
+  "description": "Art Gallery & Classes - Where creativity comes alive",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0047AB",
+  "theme_color": "#8A2BE2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FFF200'/%3E%3Cpath d='M30 50 Q50 20 70 50 Q50 80 30 50' fill='%23FF69B4'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["art", "education", "gallery", "classes"],
+  "lang": "en",
+  "dir": "ltr"
+}
