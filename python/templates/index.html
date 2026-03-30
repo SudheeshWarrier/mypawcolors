@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Manager - My Paw Colors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Data Manager - My Paw Colors</h1>
+            <p>Manage your catalog, students, and hobbies</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="catalog">🎨 Catalog</button>
+            <button class="tab-btn" data-tab="students">👥 Students</button>
+            <button class="tab-btn" data-tab="hobby">🎯 Hobbies</button>
+        </div>
+
+        <!-- ============== CATALOG TAB ============== -->
+        <div id="catalog" class="tab-content active">
+            <div class="tab-header-with-search">
+                <div class="tab-header">
+                    <h2>Art Catalog Management</h2>
+                    <button class="btn btn-primary" onclick="showAddForm('catalog')">+ Add Item</button>
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="catalogSearch" class="search-input" placeholder="🔍 Search catalog...">
+                    <span class="search-results" id="catalogSearchResults"></span>
+                </div>
+            </div>
+
+            <!-- Items List with Lazy Loading -->
+            <div id="catalogList" class="items-list lazy-load-container" data-type="catalog">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div id="catalogLoading" class="loading-indicator hidden">Loading more items...</div>
+        </div>
+
+        <!-- ============== STUDENTS TAB ============== -->
+        <div id="students" class="tab-content">
+            <div class="tab-header-with-search">
+                <div class="tab-header">
+                    <h2>Students Management</h2>
+                    <button class="btn btn-primary" onclick="showAddForm('students')">+ Add Student</button>
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="studentsSearch" class="search-input" placeholder="🔍 Search students...">
+                    <span class="search-results" id="studentsSearchResults"></span>
+                </div>
+            </div>
+
+            <!-- Items List with Lazy Loading -->
+            <div id="studentsList" class="items-list lazy-load-container" data-type="students">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div id="studentsLoading" class="loading-indicator hidden">Loading more items...</div>
+        </div>
+
+        <!-- ============== HOBBY TAB ============== -->
+        <div id="hobby" class="tab-content">
+            <div class="tab-header-with-search">
+                <div class="tab-header">
+                    <h2>Hobbies Management</h2>
+                    <button class="btn btn-primary" onclick="showAddForm('hobby')">+ Add Hobby</button>
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="hobbySearch" class="search-input" placeholder="🔍 Search hobbies...">
+                    <span class="search-results" id="hobbySearchResults"></span>
+                </div>
+            </div>
+
+            <!-- Items List with Lazy Loading -->
+            <div id="hobbyList" class="items-list lazy-load-container" data-type="hobby">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div id="hobbyLoading" class="loading-indicator hidden">Loading more items...</div>
+        </div>
+    </div>
+
+    <!-- Modal Overlay -->
+    <div id="modalOverlay" class="modal-overlay hidden"></div>
+
+    <!-- Universal Dynamic Form Modal -->
+    <div id="formModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="formTitle">Add New Item</h3>
+                <button class="modal-close" onclick="closeFormModal()">✕</button>
+            </div>
+            <form onsubmit="saveItem(event)" class="modal-form">
+                <div id="formContainer" class="form-grid">
+                    <!-- Form fields will be generated dynamically here -->
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeFormModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success/Error Message -->
+    <div id="notification" class="notification"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
