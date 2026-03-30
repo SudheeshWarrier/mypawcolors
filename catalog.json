@@ -105,7 +105,7 @@
       "frame": "Unframed"
     },
     "hero": true,
-    "image": "",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOS05-EjGjdVBssfTRakhJfTHuG3xqw1e0daUqSmIhl-DC72vRXbNv9crVwpx3kHT1URBUQoHui2xWgqMqsNeMX2NwdvQydvmUm7FEISHtniZ-t29Vzwx70nkIuks_DLRQEGf9hjpVVPJMIAErd_Y71Pg=w1159-h869-s-no-gm",
     "dimension": {
       "width": 11.7,
       "height": 16.5,
@@ -174,7 +174,7 @@
       "frame": "Unframed"
     },
     "hero": true,
-    "image": "https://lh3.googleusercontent.com/pw/AP1GczNjAvUqG6NLVbOk-JFDu-aRuJyrmmtr3tbm2YgVyOwt2sDXbrgjYD2HAfTR6SYXSlQDoCyd2qSTtlJ9LdcuCIEFK0x8FFBDcU7ebjMGJbPzlx-AsB4Mv9G0hjj05CM71xr9u4JIW9gjWYHGYTaOUNfH=w925-h576-s-no-gm",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOVMc_tqzPPbKJz_KmDNWsyltLSm4DYKphNYKxL9k6aZUTDYws-SgfQ0hLh-338R19j56x7FwmV6Qacgv-obymRpxB7JkskW6GifBzXRiazxlUyDf0XDrtRcJLP4p--h0MJl91cx5iMHw0__cqShhHy=w1021-h869-s-no-gm",
     "dimension": {
       "width": 11.7,
       "height": 16.5,
@@ -220,7 +220,7 @@
       "frame": "Unframed"
     },
     "hero": true,
-    "image": "",
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOFSk2hOC9GJW8AGjRmCygtaZC-98b46RMzeR11-zVGtqxMPlTSGjW8_7ReQ7zotJNFdNvbQWu79uYgrXOrRgc4sPtSoh5M-giYaW5d7hv731xtj2LDqmygs5dSSnqho-TTe0pbt6A5rrJdnOxiULV4Hw=w1080-h676-s-no-gm",
     "dimension": {
       "width": 11.7,
       "height": 16.5,
@@ -252,7 +252,6 @@
       "orientation": "portrait"
     }
   },
-  
   {
     "id": 13,
     "title": "Pet Portrait - Clowder of cats",
@@ -767,7 +766,7 @@
     "price": "$30",
     "status": "Available",
     "specifications": {
-      "medium": "Acrylic on Canvas",
+      "medium": "Acrylics on Canvas",
       "size": "8inches x 8inches",
       "year": "2023",
       "frame": "Unframed"
@@ -790,7 +789,7 @@
     "price": "$30",
     "status": "Available",
     "specifications": {
-      "medium": "Acrylic on Canvas",
+      "medium": "Acrylics on Canvas",
       "size": "8inches x 8inches",
       "year": "2023",
       "frame": "Unframed"
@@ -813,7 +812,7 @@
     "price": "$30",
     "status": "Available",
     "specifications": {
-      "medium": "Acrylic on Canvas",
+      "medium": "Acrylics on Canvas",
       "size": "8inches x 8inches",
       "year": "2023",
       "frame": "Unframed"
@@ -1448,5 +1447,308 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
+  },
+  {
+    "id": 65,
+    "title": "Cherries",
+    "artist": "My Paw Colors Studio",
+    "category": "Oils",
+    "price": "$25",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Oil on Canvas",
+      "size": "6inches x 4 inches",
+      "year": "2018",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPLAqwk0JnsD9nXTDZvrUSnSQ2wvYZCVxiNkLjVGQd-wYnSAeZUAlXRB1yYL8-mLeC8Nd4cVRJ1cCJlUT_ihiUAu2GLuWyd3lkfBfFYRRr4cqSlwxkh0sQ6UoZBiJWHYmdrp5jldFSzITqpMhQpW-R_Lg=w1364-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "Landscape"
+    }
+  },
+  {
+    "id": 66,
+    "title": "Apples",
+    "artist": "My Paw Colors Studio",
+    "category": "Oils",
+    "price": "$25",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Oil on Canvas",
+      "size": "6inches x 4 inches",
+      "year": "2018",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNiBYvPixlqQ7qL7l9QVxnKpWmmdhZ_xoi_6gvFCSSG7r_dj5KFL-7RHMYn8RHgCbfPw3kY8VtnGjwq-3BcpOWgjy16xS-5dX2U0Q8FtM-a-oTZ67LuXDDHG5ptU5ztDNpOIOS7ZxcAoXGQfoEKJBN_lQ=w1161-h779-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "Landscape"
+    }
+  },
+  {
+    "id": 67,
+    "title": "Horse",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$60",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Soft pastels on paper",
+      "size": "16inches x 24 inches",
+      "year": "2017",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNfxp3F4adFLpGKFwa_ypYSAIbXaTawlqbod-6VZTLFKSrL0cDjZi23bcPDerFb-dDGmpT-U0ROY0p8zO4Ul6B4XTtaD-6AiYt6BhXP1-4qmR5GsGoO_hgqBsG3ARmXdYmEVwnmTUkde2_3mSnnFSOGQg=w595-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 68,
+    "title": "Tiger",
+    "artist": "My Paw Colors Studio",
+    "category": "Mixed Media",
+    "price": "$100",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Acrylic and Oil on Canvas",
+      "size": "24inches x 32 inches",
+      "year": "2017",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPJa-ELUw8tIX23McsNNGPtrABSWySG5GkzXVJLn5NpSGqyMoR2tM5XQk76Rdul_2yyB_03xPUy-O4Jh3CRXgU1O4ZgjdYHiWCExXE6xREK2YKbdsvdCJO7cjG7UG5HbjF4FoonlI128pKV0miXBYbxkw=w651-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 69,
+    "title": "Wall Painting",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$40",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Acrylics",
+      "size": "3ft x 4ft",
+      "year": "2018",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNtUKP2ymVEHymCU5SVoUSnSIdSmDT2V8Dy4DPELtXrtyL6TdxA2lEjrOIsL72dySoEXAVf9qlEXgmGR599UhOI0B03Xljj-xK7arb01GPpK_iD_bytnzL7KhpeVwZfnOVTlUp6f_bRChN89mf0l4bDOQ=w1080-h810-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
   }
+  ,{
+    "id": 70,
+    "title": "Wall Painting",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$80",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Acrylics",
+      "size": "6ft x 4ft",
+      "year": "2015",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMGBr3hB9m5mIIu3vLgQm04ZNyvU2lVuaAJ2EwlgYO3SjJQ_MtGAVCYtwtYW7kBcptJQgw6WFtPIiSyKbercFPuSWUTjTEq9UqHnw4ESf6x65d0Syn9ypXAP09f9L64EgiUZ6VvjDqaIwcWkOd7VMpBAg=w600-h800-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+   ,{
+    "id": 71,
+    "title": "Wall Painting",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$200",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Mixed Media",
+      "size": "10ft x 12ft",
+      "year": "2015",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczNDaTyepowBsqkp7cOJWYfLZHkHCnKvQaP-1tETyhTGr7gXjYW5bcJuI95Pi8SXPpkVlRjnzHMAiayt8ZtR0g29e8HLIHwZw7ypX7iTjtk7hzBnydqZseb-tu_r02dTcE_1z5aMI4QD98BsZ71ZfyELcw=w1080-h608-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+   ,{
+    "id": 72,
+    "title": "Wall Painting",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$100",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Acrylics",
+      "size": "10ft x 7ft",
+      "year": "2016",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczN1I5joSHpYhvfE1mWfALCIE3yRJpBnbou22gdT-F7_7h7oN0Kn4emOMQPR3HafJiY9g-S1Zw-4bVPkXDYKOturmM-lj1IQ8kse4Z_YtGzyDZH4wUF6RXmfekAe4OqRQeB6KswReBxVFh9C-WNJZdjcEA=w784-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+  ,{
+    "id": 73,
+    "title": "Wall Painting",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$100",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Mixed Media",
+      "size": "10ft x 12ft",
+      "year": "2015",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPR0vMXRhC0OhzmqA-qx9gflPxD0Ff8nD81s963z0Kwohx62sBX6hmQv9Br90MGKQC7BD-gQ75FJVSjGSeG9wxtbd6FBljbzCM63JAkQ5TfH6ZVpJ3MmjoS56nDcDXNcq9ga6h8M4goc4OAWJIMV7-_UQ=w1080-h608-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+    ,{
+    "id": 74,
+    "title": "Pet Portrait - Labradoodle",
+    "artist": "My Paw Colors Studio",
+    "category": "Pet Portraits",
+    "price": "$50",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Color pencils on paper",
+      "size": "8.3inches x 11.7 inches",
+      "year": "2024",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPXBEpxs_dT3ic3WRfj9pjsLD3rpFIx9GgJ_qAD62fXmO243s9EM3JCzRnvBjoq9XV9hMvgOUs83mx5dtniBrxYfAQYJoqwW2JJGT3wGgMAIiLzTjrBWXfmX92iWsamMLBCicESPltxHxndiW2UAQHS=w609-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+  ,{
+    "id": 75,
+    "title": "Pet Portrait - Dog",
+    "artist": "My Paw Colors Studio",
+    "category": "Pet Portraits",
+    "price": "$50",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Charcoal",
+      "size": "8.3inches x 11.7 inches",
+      "year": "2024",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczP-sJYLjTuYVm38FuQ7SY0UlgokyCvONWaEzRQnP5qGgyfnINVaFoZk4Vw9jLlfM5AB1H5NB_jkIWIwFLmGFI5IvluAYxZ1-QTIJjMUY3f5F6OwVsSlV-uUKGt47NcY1w768TegajEgOwj69S74rXOFPw=w869-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+  ,{
+    "id": 76,
+    "title": "Pet Portrait - Cat Sirius",
+    "artist": "My Paw Colors Studio",
+    "category": "Pet Portraits",
+    "price": "$10",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Watercolor on paper",
+      "size": "6inches x 4 inches",
+      "year": "2020",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOmEZTTesCJvdUq_w_flHdLqLLKaun3ZcT_ONPNU_QHSVj7M-rHQ8iiPUlX1uB26A2aLuDT-5RKzoqTsDNU3sztQhrZN0JZVtfJWNg-_GwyTJ1nvFr7ihgcU5U3VNtJvsaqP3bTILbcrWOmyw23zWxqXg=w649-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+
+   ,{
+    "id": 77,
+    "title": "Pet Portrait - Cat Kiara",
+    "artist": "My Paw Colors Studio",
+    "category": "Pet Portraits",
+    "price": "$10",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Watercolor on paper",
+      "size": "6inches x 4 inches",
+      "year": "2020",
+      "frame": "Unframed"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPYIPPa7emyjlEmZnfFhsncQcv2LaZe1TB_OqiiTfyexa5id5_kZjIihePHXijJKH_Lt_VN38-Ou9-I_JByBPftldQKAw_pzI-Y8l2vcXBf9jWmg722iTZc_xwWeEgg_1leLGniHiXaa-QUMUrdXpyz7Q=w590-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  }
+
+
+  
 ]
