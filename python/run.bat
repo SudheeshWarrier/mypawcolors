@@ -41,6 +41,7 @@ echo Press Ctrl+C to stop the server
 echo.
 
 REM Start the app
+
 python app.py
 
 pause

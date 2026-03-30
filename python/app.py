@@ -18,7 +18,7 @@ def load_json(filepath):
     """Load JSON file, return empty list if file is empty or doesn't exist"""
     try:
         if filepath.exists():
-            with open(filepath, 'r', encoding='utf-8') as f:
+            with open(filepath, 'r', encoding='utf-8-sig') as f:
                 content = f.read().strip()
                 if content:
                     return json.loads(content)
