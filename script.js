@@ -361,7 +361,17 @@ function renderClassesSection() {
             <li>Group or one-on-one format</li>
             <li>Personal feedback each session</li>
             <li>Flexible timing options</li>
-            <li>Available across US, Canada, Australia, Singapore, Malaysia, and India</li>
+            <li>
+              <span class="location-label">Available in:</span>
+              <div class="location-pills" aria-label="Available countries for virtual studio classes">
+                <span class="location-pill" title="United States"><img class="location-pill__flag" src="https://flagcdn.com/us.svg" alt="USA flag" loading="lazy">USA</span>
+                <span class="location-pill" title="Canada"><img class="location-pill__flag" src="https://flagcdn.com/ca.svg" alt="Canada flag" loading="lazy">Canada</span>
+                <span class="location-pill" title="Australia"><img class="location-pill__flag" src="https://flagcdn.com/au.svg" alt="Australia flag" loading="lazy">Australia</span>
+                <span class="location-pill" title="Singapore"><img class="location-pill__flag" src="https://flagcdn.com/sg.svg" alt="Singapore flag" loading="lazy">Singapore</span>
+                <span class="location-pill" title="Malaysia"><img class="location-pill__flag" src="https://flagcdn.com/my.svg" alt="Malaysia flag" loading="lazy">Malaysia</span>
+                <span class="location-pill" title="India"><img class="location-pill__flag" src="https://flagcdn.com/in.svg" alt="India flag" loading="lazy">India</span>
+              </div>
+            </li>
           </ul>
         </article>
         <article class="info-card reveal">
@@ -372,7 +382,13 @@ function renderClassesSection() {
             <li>Premium studio materials</li>
             <li>Private one-on-one classes</li>
             <li>Great for beginners and advanced learners</li>
-            <li>Kalyani Nagar, Pune, Maharashtra, India</li>
+            <li>
+              <span class="location-label">Available in:</span>
+              <div class="location-pills" aria-label="Available country for physical studio classes">
+                <span class="location-pill" title="India"><img class="location-pill__flag" src="https://flagcdn.com/in.svg" alt="India flag" loading="lazy">Kalyani Nagar, Pune</span>
+              </div>
+            </li>
+            
           </ul>
         </article>
       </div>
@@ -391,15 +407,15 @@ function renderAboutSection() {
         <div class="chapter-list">
           <article class="chapter reveal">
             <strong>01  THE VISION</strong>
-            <p>My Paw Colors began as a simple dream. Build a warm space for creative expression.</p>
+            <p>My Paw Colors began as a simple dream: to build a warm space for creative expression. It started with small weekend sessions and slowly grew through student word-of-mouth.</p>
           </article>
           <article class="chapter reveal">
             <strong>02  THE COLLECTION</strong>
-            <p>Our collection blends classic and contemporary styles. Every piece tells a clear, personal story.</p>
+            <p>Our collection blends classic and contemporary styles. Each piece carries a personal memory, mood, or moment that felt worth preserving on canvas.</p>
           </article>
           <article class="chapter reveal">
             <strong>03  THE COMMUNITY</strong>
-            <p>We teach, mentor, and grow together. Every artist level is welcome here.</p>
+            <p>We teach, mentor, and grow together in a supportive, no-pressure environment. Whether someone is picking up a brush for the first time or returning after years, they are always welcome here.</p>
           </article>
         </div>
       </div>

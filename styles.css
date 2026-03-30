@@ -626,6 +626,40 @@ main {
   margin: 0.25rem 0;
 }
 
+.location-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-weight: 700;
+  color: var(--text-soft);
+}
+
+.location-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.location-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(125, 107, 93, 0.28);
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 0.8rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.location-pill__flag {
+  width: 16px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(125, 107, 93, 0.18);
+}
+
 .about-layout {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
