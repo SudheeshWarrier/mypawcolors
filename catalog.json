@@ -1562,8 +1562,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-  ,{
+  },
+  {
     "id": 70,
     "title": "Wall Painting",
     "artist": "My Paw Colors Studio",
@@ -1585,8 +1585,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-   ,{
+  },
+  {
     "id": 71,
     "title": "Wall Painting",
     "artist": "My Paw Colors Studio",
@@ -1608,8 +1608,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-   ,{
+  },
+  {
     "id": 72,
     "title": "Wall Painting",
     "artist": "My Paw Colors Studio",
@@ -1631,8 +1631,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-  ,{
+  },
+  {
     "id": 73,
     "title": "Wall Painting",
     "artist": "My Paw Colors Studio",
@@ -1654,8 +1654,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-    ,{
+  },
+  {
     "id": 74,
     "title": "Pet Portrait - Labradoodle",
     "artist": "My Paw Colors Studio",
@@ -1677,8 +1677,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-  ,{
+  },
+  {
     "id": 75,
     "title": "Pet Portrait - Dog",
     "artist": "My Paw Colors Studio",
@@ -1700,8 +1700,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-  ,{
+  },
+  {
     "id": 76,
     "title": "Pet Portrait - Cat Sirius",
     "artist": "My Paw Colors Studio",
@@ -1723,9 +1723,8 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
-  }
-
-   ,{
+  },
+  {
     "id": 77,
     "title": "Pet Portrait - Cat Kiara",
     "artist": "My Paw Colors Studio",
@@ -1747,8 +1746,120 @@
       "aspectRatio": 0.7273,
       "orientation": "portrait"
     }
+  },
+  {
+    "id": 78,
+    "title": "Glow in Dark - Paving Blocks",
+    "artist": "My Paw Colors Studio",
+    "category": "Others",
+    "price": "$5",
+    "status": "Sold",
+    "specifications": {
+      "medium": "Glow in Dark colors on Paving blocks",
+      "size": "4inches x 6inches",
+      "year": "2015",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPrVrWOWVJa9RnBX_wl3qyY9oEolhv2vocgKtdM-SW7DPUZWfjR9C9DZcdBHiAADhpxYEIDFGiW_bX9ALxRY80ai9DnZSo8je6Gr969v2H_q_jj3Yvanp2Bdv17b5-NdcLqK6LXn4ZtS6PkF--6fmcZlw=w1080-h608-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 79,
+    "title": "Tanjore Painting - 24k Gold",
+    "artist": "My Paw Colors Studio",
+    "category": "Religious Art",
+    "price": "$750",
+    "status": "Sold",
+    "specifications": {
+      "medium": "24k gold foil with traditonal materials",
+      "size": "3ft x 1.5ft",
+      "year": "2025",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczOoHkQoDw7mvwsicYgZaonjCEWzhS2dH33Y_bBfzc5Schueg3F3Z-_jtzo0shnnQ5Xhtzo4rywfe4VifhsNUf93aZzWPDPmIMRE3c9cMyUfRjgd2JaK1E1D7d3tJb82NTOMgiErC8Dfp0MQjzkZdvHkxA=w426-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 80,
+    "title": "Tanjore Painting - 24k Gold",
+    "artist": "My Paw Colors Studio",
+    "category": "Religious Art",
+    "price": "$25",
+    "status": "Available",
+    "specifications": {
+      "medium": "24k gold foil, Acrylics",
+      "size": "4inches x 6inches",
+      "year": "2022",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMb-DR4brLCzvtI8nbYtd1XFrcEMXsvI03CSJtJSrUEeD_ioJU4GOca77S_tFTYjCloKwDx_4_fMRSs--VfWz1WXYuj8ELIUhLdgMFnlhirj6fKLJx6DZdfXf-FXThk_KfXdeWa_h6pyaJho4dEFku5EA=w1156-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 80,
+    "title": "Tanjore Painting - 24k Gold",
+    "artist": "My Paw Colors Studio",
+    "category": "Religious Art",
+    "price": "$110",
+    "status": "Sold",
+    "specifications": {
+      "medium": "24k gold foil, Acrylics",
+      "size": "16inches x 20inches",
+      "year": "2022",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczMADC8c4ZzgdV5Mnqc7B_yApAUsrrdvxpLKWOJ5ml5Biz4Ar2-MFkNzsqAwiBbCzpYnpi1od4-DF9Juh8fbH1IFb900VRV_Zdi97HkXVOEUIhEpVkytuiXUA9__5M3PFbCrgziUmbUW3vZZpy2VtxoWnw=w679-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
+  },
+  {
+    "id": 81,
+    "title": "Tanjore Painting - 24k Gold",
+    "artist": "My Paw Colors Studio",
+    "category": "Religious Art",
+    "price": "$110",
+    "status": "Sold",
+    "specifications": {
+      "medium": "24k gold foil, Acrylics",
+      "size": "16inches x 20inches",
+      "year": "2022",
+      "frame": "NA"
+    },
+    "hero": true,
+    "image": "https://lh3.googleusercontent.com/pw/AP1GczPxNTVjC_8UKA-Sigu1fFWOfcmCA_eitBuatZofAiBl9rNoO2K2myJuFvtPmk8c6zKwVp_iZ8La6icBJWchaBX3pkEY8QOud-61P-rr70xNY32nskqsEZDOMlnW7bIZaHW7t3IOoQ8naPqfqUW8_eCoAg=w683-h869-s-no-gm",
+    "dimension": {
+      "width": 16,
+      "height": 22,
+      "unit": "inches",
+      "aspectRatio": 0.7273,
+      "orientation": "portrait"
+    }
   }
-
-
-  
 ]

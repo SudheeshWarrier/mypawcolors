@@ -1,1 +1,283 @@
-﻿
+﻿[
+    {
+        "id": 501,
+        "title": "Village Scene",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczP2uni9vvtNlFb5qnE6TL2XXYU95-BMOmimhTYnoMEazzV3OhW9Yt0jIouYO1XdYBWtk-XXinIYkPZZv89QfEx6UupZr13TyP2eZiBlHi9gCO5654Hn16ij-QGxQbVfQab-4VznEe3H4XQJbZqCbZsheQ=w1159-h869-s-no-gm",
+        "specifications": {
+            "medium": "Mixed Media on Canvas",
+            "size": "4ft x 3ft",
+            "year": "2019",
+            "frame": "Unframed"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 502,
+        "title": "Pupil- Gurukul",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczOhqwh9rgEmT9UYBBS8a4obDzjwGO5s7DCR-_nCOgCrdAylEE0wEC1uafzsdPDJGLnqfhX5njubrTAzOtbSe8ATpedeH0xtJyOi_6FIGtoYZFXLVMCZokF2U6wqxUNcnMWVcwHbjvr3yPJkjuV9sKUQjQ=w886-h869-s-no-gm",
+        "specifications": {
+            "medium": "Mixed Media on Canvas",
+            "size": "3ft x 3ft",
+            "year": "2019"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 503,
+        "title": "Bhuddha",
+        "artist": "My Paw Colors Studio",
+        "category": "Senior Kids - Intermediate",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczNaW0KqZtID_zi4jpeNm_44vjW3dW6dywyq_kAIHgZ-AHb32fOI28OQulbgp6c4v_fYpTtfXOBfyiGhsaBK8IhbqImJTlFiYR81zevFDjC-jvNULJNMI6a0tCvHk2XGid5_fJ9wC8vj8gOQmqbMNOFBiQ=w640-h869-s-no-gm",
+        "specifications": {
+            "medium": "Acrylics",
+            "size": "9inches x 12inches",
+            "year": "2023"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 504,
+        "title": "Horse",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczM-U4j2HLc-Pk9zCRYZWlrP0r7d_LxJGCw2rH9Ru-Shl3RjDKVThBx1eKaBCyqrBAXwCBqayX6n5ENE5HZh8nW9eC6xVuGsNQpJXz_-wGJHpfP8SnuRKLyshSYowOtpUZSMP8okfG9B4fJ6XcufmPvFPA=w845-h869-s-no-gm",
+        "specifications": {
+            "medium": "Oils",
+            "size": "10inches x 12inches",
+            "year": "2024"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 505,
+        "title": "Bull 1",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczMT-I3myW-kOUGODrQX1y9ZjfiPwTJpEIyiJA1PTxfaNpdCvHiN8mQSsAeBnN-RQxj1LGCMn9RDTBY-gw-uXxTILILvb9R2ebi4OWRc8Gz_OKH3UdRBQnKVwXIwOerd33Ob9_mgqDDPWaH0m75mhgDqwA=w1079-h852-s-no-gm",
+        "specifications": {
+            "medium": "Oils",
+            "size": "24inches x 18inches",
+            "year": "2023"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 506,
+        "title": "Bull 2",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczMO5UN3zlWLr9Pgtt_ivi3TzYXnjoOEJkqMUsSTtUPXlAH4z7sf966LtMIrwJ4BWxqj1myWXAqe0WLSvNjm3M1RZatzPm9KsgXCqEP4-8y_218JZTG94lsy55oMOotIYW2jzunlqgU31SzhJhN3BeuZwg=w781-h576-s-no-gm",
+        "specifications": {
+            "medium": "Oils",
+            "size": "24inches x 18inches",
+            "year": "2024"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 507,
+        "title": "Joker",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczMULpO_Goi1nSFB_4EurGU1uyipIHcVtclUcopyehnK0Ok1CMYd81SZRGKodQX1OFs_SVc8Ux62PhuKHasREJKj_yr8PPcPY4GIcXahxraZWjLVwoMTYYI4-3TH1DCj-C3oTesQu64fV7XSs1dC4Q_mUQ=w588-h726-s-no-gm",
+        "specifications": {
+            "medium": "Oils",
+            "size": "24inches x 14 inches",
+            "year": "2023"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 508,
+        "title": "Bull 3",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczPNbZckZ2WBklhqOzeBjcLP0gF6Q7-g13hgB09grkDsQ9KSINkN8bVt2fvyvWLc9i-U-PB9eu3p_Z2lpKUFCdXFkCOKScHAA_Zx_4TsI-5cVAwVL1EKeVvwzxSMgc3uvHNpmVeo0suFiQTBHG8SfL39nA=w1074-h798-s-no-gm ",
+        "specifications": {
+            "medium": "Oils",
+            "size": "24inches x 18inches",
+            "year": "2022"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 509,
+        "title": "Fisherwomen",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczOKNa3JlW0NMVJHAhsq39lR4BH_v-EY6VRt2vpCvIf2EGeQ1x8kemRmdWu4Z05Vk6Pt-9wF8-Kk2NQtsFWJvhBjZYEoKMIGw-1QRka2jnYEKFf3ir-N6OD5HfP00PxWDHPsTHdzv_Iie9Ivx4vusflyvQ=w682-h511-s-no-gm ",
+        "specifications": {
+            "medium": "Oils",
+            "size": "24inches x 18inches",
+            "year": "2023"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 510,
+        "title": "Village Scene",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczMvqs9TMQdkFL8xi5njs1_PgZEx8bClbTJYcRFNuf4vh2zRtfS4QMtwzUSFtkvTpnT2d63yShHz8aCMm7pw4ujdxVkG6jP_2mjyH_PGFb32FBg7G6TIotXJdoM8zPjrpCJk6oIoNrxDfm-hJM4hSG7r2g=w878-h869-s-no-gm ",
+        "specifications": {
+            "medium": "Oils",
+            "size": "5ft x 5ft",
+            "year": "2024"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 511,
+        "title": "Bull 4",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczPNR9MYySFomoy9ZFx1XppzqeIZHmKYg-ttZqMRY5MNZlq05Yd5x1fmSkQ44j49mKhiUOp1siZ-zF7aS3Zzwtdm0kg66emt5NLn87w87J_3i6KLHZfu3xAhwaAntkFO1okpu27_hRhHyJEVRN4gbDluuA=w651-h869-s-no-gm",
+        "specifications": {
+            "medium": "Acrylics",
+            "size": "9inches x 12inches",
+            "year": "2019"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Portrait"
+        }
+    },
+    {
+        "id": 512,
+        "title": "Bull 5",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczP3E_6__bS3me7MBejzLuQjqx5ePwB8BmEqxNUgY15ri_tcpWP8XTlw2Feb1igMDqmyojAzlfdHUH73SqJ1wmaVXgOa4ID3G3d-C05BgTXvnDRhzM-ny5oOrXRQDgGHcIFsDL55Yei_2fRtalMjpdZxEw=w651-h869-s-no-gm",
+        "specifications": {
+            "medium": "Acrylics",
+            "size": "9inches x 12inces",
+            "year": "2019"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 513,
+        "title": "Painter at work",
+        "artist": "My Paw Colors Studio",
+        "category": "Adults",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczMQpTa7lNGGt98LzyqcfkQT-q2RAGZ3PnpSk45ZAYWnXA1Krh_RWTlEOCR9RP3dAqbK7iKvI4hqgTMatfQi33T5hN26Lrlv3cAK3xWvgDaCOxDSNowGB-8epmKbjT3fCbiZIdF4rSujKHTayPwHzmcdVg=w621-h869-s-no-gm",
+        "specifications": {
+            "medium": "Oils",
+            "size": "9inches x 12inces",
+            "year": "2023"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Landscape"
+        }
+    },
+    {
+        "id": 514,
+        "title": "Horse",
+        "artist": "Niraja",
+        "category": "Senior Kids - Intermediate",
+        "image": "https://lh3.googleusercontent.com/pw/AP1GczNdoHoMofUKRYQN-ekfcH9PEli2H_fRIaWpXnojDj4oLQx9J3ACyoH8yJljDzUN5MafvpYCrjD-M8Q5ee3mHpX3miVAqssBzr_UZNLt4wB77YvDamEtJvdNaTY9X2bFGZXlmZtZVSRsCkzaHYRmIGpmYA=w748-h869-s-no-gm",
+        "specifications": {
+            "medium": "Watercolors",
+            "size": "9inches x 12inces",
+            "year": "2025"
+        },
+        "hero": true,
+        "dimension": {
+            "width": 8.3,
+            "height": 11.7,
+            "unit": "inches",
+            "aspectRatio": 0.7094,
+            "orientation": "Portrait"
+        }
+    }
+]
