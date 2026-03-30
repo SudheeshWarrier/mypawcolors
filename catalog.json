@@ -252,29 +252,7 @@
       "orientation": "portrait"
     }
   },
-  {
-    "id": 12,
-    "title": "Pet Portrait - GSD with Owner",
-    "artist": "My Paw Colors Studio",
-    "category": "Pet Portraits",
-    "price": "$60",
-    "status": "sold",
-    "specifications": {
-      "medium": "Color pencils on paper",
-      "size": "11.7inches x 16.5inches",
-      "year": "2020",
-      "frame": "Unframed"
-    },
-    "hero": true,
-    "image": "https://lh3.googleusercontent.com/pw/AP1GczPh9Y7iI2qQSfbXDzc2ZzeYZ_AqNbIotKeldZ2bPYF7iM5a1a7Ii9Yi5DfKXuEJ-pmRcAYZ864skPadg6sQha4mAi4w8p2969r7ls_RqWDanHLc6MTiVvbOGb0VITb2wYwW04tAhHVsT2rQ5_SyK-l5=w1223-h869-s-no-gm",
-    "dimension": {
-      "width": 11.7,
-      "height": 16.5,
-      "unit": "inches",
-      "aspectRatio": 0.7091,
-      "orientation": "portrait"
-    }
-  },
+  
   {
     "id": 13,
     "title": "Pet Portrait - Clowder of cats",
